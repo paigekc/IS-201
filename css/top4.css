@@ -1,0 +1,75 @@
+body {
+margin: 20px;
+
+}
+
+nav {
+font-family: 'Courier New', Courier, monospace;
+font-size: large;
+color: black;
+padding: 10px;
+background-color: rgb(34, 87, 122);
+
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    margin-right: 10px;
+
+}
+
+nav a{
+    font-family: 'Times New Roman', Times, serif;
+ color: rgb(255, 255, 255);
+ text-decoration: none;
+
+}
+
+
+
+
+.header {
+    color: rgb(34, 87, 122);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    
+}
+
+.denmark {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(128, 237, 153);
+    color: rgb(34, 87, 122);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.kenya{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(87, 204, 153);
+    color: rgb(34, 87, 122);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.croatia {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(56, 163, 165);
+    color: rgb(34, 87, 122);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.china{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(128, 237, 153);
+    color: rgb(34, 87, 122);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
